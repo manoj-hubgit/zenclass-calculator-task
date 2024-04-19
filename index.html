@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+  </head>
+  <body>
+   
+    <style>
+    #title{
+        text-align: center;
+    }
+    #description{
+        text-align: center;
+    }
+      .container {
+        background-color: rgb(218, 218, 218);
+        padding:1rem;
+        margin: auto;
+        height: 24rem;
+        width: 18rem;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        border: 1px solid black;
+        border-radius: 8px;
+        box-shadow: 8px 8px 4px lightgray;
+        gap: 5px;
+      }
+      #result {
+        margin: 1.2rem 0.5rem 1rem 0.5rem;
+        color: rgba(0, 0, 0, 0.5);
+        grid-column-start: 1;
+        grid-column-end: 5;
+        padding-left: 1rem;
+        border: 0;
+        background-color: rgb(185, 185, 185);
+        font-size: large;
+        
+      }
+      button{
+       border:1px solid rgb(226, 226, 226);
+        background-color: rgb(218,218,218);
+      }
+      #multiply ,.dot,#divide,#subtract,#add{
+        color: rgb(13,110,253);
+        font-weight: bold;
+      }
+      #equal{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        background-color:rgb(13,110,253);
+        font-weight: 600 !important;
+        color: aliceblue;
+      }
+      #clear{
+        color: red;
+      }
+      
+    </style>
+    <script src="script.js" defer></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+  </body>
+</html>
